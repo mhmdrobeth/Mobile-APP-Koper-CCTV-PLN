@@ -24,7 +24,6 @@ class _MainContainerState extends State<MainContainer> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // PERBAIKAN: Mengganti AnimatedSwitcher dengan IndexedStack
       body: IndexedStack(
         index: _currentIndex,
         children: _screens,
